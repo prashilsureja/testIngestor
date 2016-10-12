@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/ingestor")
-12public class PrashilIngestorController {
+public class PrashilIngestorController {
     @RequestMapping("v1/ingest")
     void mask() {
         System.out.println("Ingested Data");
